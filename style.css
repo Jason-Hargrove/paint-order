@@ -1,3 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&family=Black+Ops+One&family=Russo+One&display=swap");
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.store-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-name {
+  font-size: 2.5rem;
+  letter-spacing: -0.2ch;
+}
+
+.store-name {
+  font-size: 4rem;
+  letter-spacing: -0.2ch;
+}
+
+/* Font Options */
+
+/*  Black Ops One - Military/Industrial feel */
+/* .brand-name, .store-name {
+    font-family: 'Black Ops One', cursive;
+} */
+
+.brand-name,
+.store-name {
+  font-family: "Russo One", sans-serif;
+}
+
 .wrap {
-    display: inline-block;
+  /* paint-order: stroke fill; */
+  display: inline-block;
+  letter-spacing: -0.2ch;
+  -webkit-text-stroke: 5px red;
+  /* text-shadow: 10px 10px 0 black, -10px -10px 0 black, 10px -10px 0 black, -10px 10px 0 black; */
 }
